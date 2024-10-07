@@ -13,3 +13,6 @@ thì cũng xem như là khác nhau hoàn toàn
 SELECT DISTINCT tên cột 1, tên cột 2,..
 FROM tên của bảng;
 ```
+## Phần 3: Bí danh hay tên thay thế `ALIAS_NAME`
+-Được hiểu là tên thay thế hay bí danh   
+và khi gọi đến tên thì hiểu là tên của nó  
