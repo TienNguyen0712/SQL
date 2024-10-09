@@ -37,11 +37,11 @@ cũng như đưa ra các quyết định đúng đắn so lớn nhất và nhỏ
 VD : Thi => Trao huy chương    
      Gừi lãi xuất ngân hàng => Lựa chọn ngân hàng phù hợp 
 ```SQL
-SELECT MIN(Tên của cột muốn tìm giá trị nhỏ nhất)
+SELECT MIN (Tên của cột muốn tìm giá trị nhỏ nhất)
 FROM tên của bảng;
 ```
 ```SQL
-SELECT MAX(Tên của cột muốn tìm giá trị lớn nhất)
+SELECT MAX (Tên của cột muốn tìm giá trị lớn nhất)
 FROM tên của bảng;
 ```
 * Có thể kết hợp cùng với từ khóa `ALIAS` để đổi tên cho cột
