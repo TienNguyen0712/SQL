@@ -44,4 +44,12 @@ FROM tên của bảng;
 SELECT MAX (Tên của cột muốn tìm giá trị lớn nhất)
 FROM tên của bảng;
 ```
-* Có thể kết hợp cùng với từ khóa `ALIAS` để đổi tên cho cột
+* Có thể kết hợp cùng với từ khóa `ALIAS` để đổi tên cho cột 
+```SQL
+SELECT MAX (Tên của cột muốn tìm giá trị lớn nhất) AS "Tên thay thế"
+FROM tên của bảng;
+```
+```SQL
+SELECT MIN (Tên của cột muốn tìm giá trị nhỏ nhất) AS "Tên thay thế"
+FROM tên của bảng;
+```
