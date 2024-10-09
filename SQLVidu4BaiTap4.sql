@@ -1,4 +1,4 @@
--- Tim gia tri thap nhat cua cac san pham torng bang "Products"--
+-- Tim gia tri thap nhat cua cac san pham trong bang "Products"--
 --Vidu1--
 SELECT MIN (UnitPrice) AS "Min_Price" --Dat ten thay the cho cot la "Min_Price"
 FROM dbo.Products;
