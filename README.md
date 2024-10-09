@@ -35,7 +35,7 @@ FROM tên bảng AS tên thay thế cho bảng;
   Trong dữ liệu để tìm giá tị lớn nhất và nhỏ nhất để có thẻ so sánh
 cũng như đưa ra các quyết định đúng đắn so lớn nhất và nhỏ nhát    
 VD : Thi => Trao huy chương    
-     Gừi lãi xuất ngân hàng => Lựa chọn ngân hàng phụ hợp 
+     Gừi lãi xuất ngân hàng => Lựa chọn ngân hàng phù hợp 
 ```SQL
 SELECT MIN(Tên của cột muốn tìm giá trị nhỏ nhất)
 FROM tên của bảng;
