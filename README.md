@@ -31,3 +31,5 @@ FROM tên của bảng;
 SELECT tên các cột
 FROM tên bảng AS tên thay thế cho bảng;
 ```
+## Phần 4: Tìm giá trị lớn nhất và giá trị nhỏ nhất
+
