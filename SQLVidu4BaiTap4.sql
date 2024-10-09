@@ -16,7 +16,7 @@ FROM dbo.Products;
 SELECT MIN (BirthDate) AS "Ngay thang nam it nhat cua nhan vien"
 FROM dbo.Employees;
 --Tim ra tuoi cua nhan vien nho nhat trong cong ty--
---Ngay thang nam sinh lon nhat trong cong ty--
+--Ngay thang nam sinh lon nhat trong cong ty la tuoi nho nhat--
 --BaiTap2--
 SELECT MAX (BirthDate) AS "Ngay thang nam lon nhat cua nhan vien"
 FROM dbo.Employees;
