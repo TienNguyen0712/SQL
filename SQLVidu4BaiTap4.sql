@@ -6,7 +6,7 @@ FROM dbo.Products;
 --VIdu2--
 SELECT MAX (OrderDate) AS "Ngay dat hang gan day"
 FROM dbo.Orders;
---Tim raso luong hang ton kho nhieu nhat--
+--Tim ra so luong hang ton kho nhieu nhat--
 --Vidu3--
 SELECT MAX (UnitsInStock) AS "So luong hang ton kho nhieu nhat"
 FROM dbo.Products;
