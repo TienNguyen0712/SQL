@@ -32,4 +32,16 @@ SELECT tên các cột
 FROM tên bảng AS tên thay thế cho bảng;
 ```
 ## Phần 4: Tìm giá trị lớn nhất và giá trị nhỏ nhất
-
+  Trong dữ liệu để tìm giá tị lớn nhất và nhỏ nhất để có thẻ so sánh
+cũng như đưa ra các quyết định đúng đắn so lớn nhất và nhỏ nhát
+VD : Thi => Trao huy chương
+     Gừi lãi xuất ngân hàng => Lựa chọn ngân hàng phụ hợp 
+```SQL
+SELECT MIN(Tên của cột muốn tìm giá trị nhỏ nhất)
+FROM tên của bảng;
+```
+```SQL
+SELECT MAX(Tên của cột muốn tìm giá trị lớn nhất)
+FROM tên của bảng;
+```
+* Có thể kết hợp cùng với từ khóa `ALIAS` để đổi tên cho cột
