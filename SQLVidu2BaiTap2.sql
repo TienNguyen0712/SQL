@@ -5,7 +5,7 @@ FROM dbo.Customers;
 --Lay ra ten ma so buu dien (PosalCode) tu bang Suppliers
 --Vidu2--
 SELECT DISTINCT PostalCode 
-FROM dbo.Suppliers
+FROM dbo.Suppliers;
 --Lay ra ten goi cua nhan vien va ten goi--
 --lich su cua nhan vien tu bang Employees--
 --Vidu3--
