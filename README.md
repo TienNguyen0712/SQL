@@ -55,7 +55,7 @@ FROM tên của bảng;
 ```
 ## Phần 5: Tìm số lần đếm, tổng, giá trị trung bình    
   Giúp cho việc quẩn lý kiếm soát số liệu, phân tích một cách chính xác và trực quan     
-**Hàm đếm**   
+-**Hàm đếm**   
 ```SQL
 SELECT COUNT (tên của cột) --Đếm dữ liệu khác NULL--
 FROM tên của bảng;
@@ -66,12 +66,12 @@ số lượng dòng trong bảng được chọn
 SELECT COUNT (*)
 FROM tên của bảng;
 ```
-**Hàm cộng**   
+-**Hàm cộng**   
 ```SQL
 SELECT SUM (tên của cột) --Các dòng tính tổng thì phải luôn có giá trị--    
 FROM tên của bảng;
 ```
-**Hàm tính trung bình cộng**    
+-**Hàm tính trung bình cộng**    
 ```SQL
 SELECT AVG (tên của cột) -- Bỏ qua các giá trị NULL--
 FROM tên của bảng;
