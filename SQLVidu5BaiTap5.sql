@@ -19,8 +19,8 @@ FROM dbo.[Order Details];
 --trong bang Products--
 --Vidu4--
 SELECT COUNT (*) AS "So luong hang ton kho",
-	   SUM (UnitsInStock) AS "Tong hang tron kho",
-	   AVG (UnitPrice) AS "Trung binh gia"
+       SUM (UnitsInStock) AS "Tong hang tron kho",
+       AVG (UnitPrice) AS "Trung binh gia"
 FROM dbo.Products;
 --Dem so luong don hang tu bang Orders theo 2 cach--
 --BaiTap1--
