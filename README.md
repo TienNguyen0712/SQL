@@ -1,11 +1,11 @@
 # Lưu trữ các bài tập ví dụ về SQL
-## Phần 1: 
+## Phần 1: Lấy dữ liệu từ bảng cho trướv
   Về `SELECT` và `FROM` các lệnh lấy từ bảng các cột nếu "*" tức lấy tất cả cột của bảng đó
 ```SQL
 SELECT tên cột 1, tên cột 2,..
 FROM tên của bảng;
 ```
-## Phần 2: 
+## Phần 2: Lấy cột có dữ liệu khác nhau ( duy nhất)
   Về `SELECT DISTINCT` và FROM các lệnh lấy từ bảng ra các cột có các dữ liệu khác nhau của     
 bảng đó nếu lấy từ hai cột giống nhau nhưng có 1 cột dữ liệu bị trùng mà cột kia không có   
 thì cũng xem như là khác nhau hoàn toàn
@@ -54,7 +54,7 @@ SELECT MIN (tên của cột muốn tìm giá trị nhỏ nhất) AS "Tên thay 
 FROM tên của bảng;
 ```
 ## Phần 5: Tìm số lần đếm, tổng, giá trị trung bình    
-  Giusp cho việc quẩn lý kiếm soát số liệu, phân tích một cách chính xác    
+  Giúp cho việc quẩn lý kiếm soát số liệu, phân tích một cách chính xác    
 và trực quan     
 **Hàm đếm**   
 ```SQL
