@@ -34,7 +34,7 @@ FROM dbo.Orders;
 --Tinh tong cho cot Wuantity--
 --BaiTap2--
 SELECT AVG (UnitPrice) AS "Trung binh cong",
-	   SUM  (Quantity) AS "Tong"
+       SUM  (Quantity) AS "Tong"
 FROM dbo.[Order Details];
 --Tim so luong ten dia chi o bang Customers--
 --BaiTap3--
