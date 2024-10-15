@@ -69,13 +69,11 @@ FROM tên của bảng;
 ```
 **Hàm cộng**   
 ```SQL
-SELECT SUM(tên của cột)
+SELECT SUM(tên của cột) --Các dòng tính tổng thì phải luôn có giá trị--    
 FROM tên của bảng;
 ```
-Lưu ý các dòng tính tổng thì phải luôn có giá trị     
 **Hàm tính trung bình cộng**    
 ```SQL
-SELECT AVG(tên của cột)
+SELECT AVG(tên của cột) -- Bỏ qua các giá trị NULL--
 FROM tên của bảng;
 ```   
-Lưu ý chỉ tính trung bình các cột có giá trị khác NULL   
