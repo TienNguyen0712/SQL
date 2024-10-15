@@ -58,7 +58,7 @@ FROM tên của bảng;
 và trực quan     
 **Hàm đếm**   
 ```SQL
-SELECT COUNT(tên của cột) --Đếm dữ liệu khác NULL--
+SELECT COUNT (tên của cột) --Đếm dữ liệu khác NULL--
 FROM tên của bảng;
 ```
 Dùng hàm COUNT(*) để đếm xem trong bảng có bao nhiêu bản ghi
@@ -69,11 +69,11 @@ FROM tên của bảng;
 ```
 **Hàm cộng**   
 ```SQL
-SELECT SUM(tên của cột) --Các dòng tính tổng thì phải luôn có giá trị--    
+SELECT SUM (tên của cột) --Các dòng tính tổng thì phải luôn có giá trị--    
 FROM tên của bảng;
 ```
 **Hàm tính trung bình cộng**    
 ```SQL
-SELECT AVG(tên của cột) -- Bỏ qua các giá trị NULL--
+SELECT AVG (tên của cột) -- Bỏ qua các giá trị NULL--
 FROM tên của bảng;
 ```   
