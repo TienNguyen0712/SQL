@@ -54,8 +54,7 @@ SELECT MIN (tên của cột muốn tìm giá trị nhỏ nhất) AS "Tên thay 
 FROM tên của bảng;
 ```
 ## Phần 5: Tìm số lần đếm, tổng, giá trị trung bình    
-  Giúp cho việc quẩn lý kiếm soát số liệu, phân tích một cách chính xác    
-và trực quan     
+  Giúp cho việc quẩn lý kiếm soát số liệu, phân tích một cách chính xác và trực quan     
 **Hàm đếm**   
 ```SQL
 SELECT COUNT (tên của cột) --Đếm dữ liệu khác NULL--
