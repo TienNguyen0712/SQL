@@ -53,29 +53,29 @@ FROM tên của bảng;
 SELECT MIN (tên của cột muốn tìm giá trị nhỏ nhất) AS "Tên thay thế"
 FROM tên của bảng;
 ```
-## Phần 5: Tìm số lần đếm, tổng, giá trị trung bình 
-  Giusp cho việc quẩn lý kiếm soát số liệu, phân tích một cách chính xác
-và trực quan
-**Hàm đếm**
+## Phần 5: Tìm số lần đếm, tổng, giá trị trung bình    
+  Giusp cho việc quẩn lý kiếm soát số liệu, phân tích một cách chính xác    
+và trực quan     
+**Hàm đếm**   
 ```SQL
 SELECT COUNT(tên của cột) --Đếm dữ liệu khác NULL--
 FROM tên của bảng;
 ```
 Dùng hàm COUNT(*) để đếm xem trong bảng có bao nhiêu bản ghi
-số lượng dòng trong bảng được chọn  
+số lượng dòng trong bảng được chọn     
 ```SQL
 SELECT COUNT (*)
 FROM tên của bảng;
 ```
-**Hàm cộng**
+**Hàm cộng**   
 ```SQL
 SELECT SUM(tên của cột)
 FROM tên của bảng;
 ```
-Lưu ý các dòng tính tổng thì phải luôn có giá trị
-**Hàm tính trung bình cộng**
+Lưu ý các dòng tính tổng thì phải luôn có giá trị     
+**Hàm tính trung bình cộng**    
 ```SQL
 SELECT AVG(tên của cột)
 FROM tên của bảng;
-```
-Lưu ý chỉ tính trung bình các cột có giá trị khác NULL
+```   
+Lưu ý chỉ tính trung bình các cột có giá trị khác NULL   
