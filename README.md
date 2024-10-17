@@ -80,7 +80,7 @@ FROM tên của bảng;
  So sánh cũng như đánh giá sắp xép các kết quả trả về từ một câu truy vấn giúp việc đánh giá xem xét chính xác và chi tiết hơn 
 ```SQL
 SELECT tên cột 1, tên cột 2, ...
-FROM tển bảng
+FROM tển của bảng
 ORDER BY tên cột 1, tên cột 2, ... ASC|DESC;
 ```
 * `ASC`: Là sắp xếp tăng dần ( Mặc định nếu không ghi )
