@@ -60,7 +60,7 @@ FROM tên của bảng;
 SELECT COUNT (tên của cột) --Đếm dữ liệu khác NULL--
 FROM tên của bảng;
 ```
-Dùng hàm COUNT(*) để đếm xem trong bảng có bao nhiêu bản ghi
+Dùng hàm `COUNT (*)` để đếm xem trong bảng có bao nhiêu bản ghi
 số lượng dòng trong bảng được chọn     
 ```SQL
 SELECT COUNT (*)
@@ -84,6 +84,6 @@ SELECT tên cột 1, tên cột 2, ...
 FROM tển bảng
 ORDER BY tên cột 1, tên cột 2, ... ASC|DESC;
 ```
-* ASC: Là sắp xếp tăng dần ( Mặc định nếu không ghi )
-* DESC: Là sắp xếp giảm dần 
+* `ASC`: Là sắp xếp tăng dần ( Mặc định nếu không ghi )
+* `DESC`: Là sắp xếp giảm dần 
   
