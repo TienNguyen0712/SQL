@@ -76,3 +76,14 @@ FROM tên của bảng;
 SELECT AVG (tên của cột) -- Bỏ qua các giá trị NULL--
 FROM tên của bảng;
 ```   
+## Phần 5: Sắp xếp kết quả trả về khi gọi một câu lệnh truy vấn
+ So sánh cũng như đánh giá sắp xép các kết quả trả về từ một câu truy vấn giúp việc đánh giá    
+xem xét chính xáz và chi tiết hơn 
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tển bảng
+ORDER BY tên cột 1, tên cột 2, ... ASC|DESC;
+```
+Với ASC: Là sắp xếp tăng dần ( Mặc định nếu không ghi )    
+    DESC: Là sắp xếp giảm dần 
+  
