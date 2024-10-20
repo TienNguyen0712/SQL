@@ -88,7 +88,8 @@ ORDER BY tên cột 1, tên cột 2, ... ASC|DESC;
 ## Phần 7: Các toán tử `+` `-` `*` `/` trong SQL
   Để thực hiện các phép tính trong SQL ta chỉ đơn giản sử dụng các toán tử Toán học
 ```SQL
-SELECT tên côt 1  + - * \ %   tên cột 2, ...
+-- [toán từ] là các dấu ( + - * \ % ) -- 
+SELECT tên côt 1  [toán từ]  tên cột 2, ...
 FROM tên của bảng;
 ```
 * Có thể kết hợp với các hàm `ALIAS` `COUNT` `MAX` `SUN` `AVG` để linh hoạt kết hợp các bài toán với nhau
