@@ -85,7 +85,7 @@ ORDER BY tên cột 1, tên cột 2, ... ASC|DESC;
 ```
 * `ASC`: Là sắp xếp tăng dần ( Mặc định nếu không ghi )
 * `DESC`: Là sắp xếp giảm dần 
-## Phần 7: Các toán tử `+` `-` `*` `/` trong SQL
+## Phần 7: Các toán tử `+` `-` `*` `/` `%` trong SQL
   Để thực hiện các phép tính trong SQL ta chỉ đơn giản sử dụng các toán tử Toán học
 ```SQL
 -- [toán từ] là các dấu ( + - * \ % ) -- 
