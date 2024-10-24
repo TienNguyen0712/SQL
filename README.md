@@ -100,3 +100,4 @@ SELECT tên cột 1, tên cột 2, ...
 FROM tên của bảng
 WHERE diều kiện lọc;
 ```
+* Lưu ý câu lệnh `ORDER BY` nằm sau mệnh đề câu lệnh `WHERE`
