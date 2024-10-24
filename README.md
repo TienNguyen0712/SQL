@@ -93,3 +93,10 @@ SELECT tên côt 1  [toán từ]  tên cột 2, ...
 FROM tên của bảng;
 ```
 * Có thể kết hợp với các hàm `ALIAS` `COUNT` `MAX` `SUN` `AVG` để linh hoạt kết hợp các bài toán với nhau
+## Phần 8: Lọc dữ liệu trong truy vấn
+  Để truy vấn hay lọc theo một điều kiện nào đó ta sử dụng câu lệnh `WHERE` sử dụng trong các công việc tìm kiếm hay kiểm tra truy xuất những dữ liệu thỏa điều kiện mà ta nhập vào
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng
+WHERE diều kiện lọc;
+```
