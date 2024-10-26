@@ -105,6 +105,15 @@ WHERE diều kiện lọc;
   Để áp dụng trong việc tìm kiếm theo nhiều điều kiện khác nhau
 * `AND` - Và 
 ```SQL
-SELECT tên cột 1, tên cột 2, ..
+SELECT tên cột 1, tên cột 2, ...
 FROM tên của bảng
 WHERE điều kiện 1 AND diều kiện 2 AND điều kiện 3
+```
+Hiển thị một bản ghi nếu tất cả các điều kiện phân tách là `TRUE`
+* `OR` - Hoặc
+```SQL
+SELECY tên cột 1, tên cột 2, ...
+FROM tên của bảng
+WHERE điều kiện 1 OR diều kiện 2 OR điều kiện 3
+```
+Hiển thị một bản ghi nếu có ít nhất 1 điều kiện được phân tách là `TRUE`
