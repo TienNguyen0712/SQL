@@ -101,3 +101,10 @@ FROM tên của bảng
 WHERE diều kiện lọc;
 ```
 * Lưu ý câu lệnh `ORDER BY` nằm sau mệnh đề câu lệnh `WHERE`
+## Phần 9: Toán từ `AND` `OR` `NOT` trong SQL
+  Để áp dụng trong việc tìm kiếm theo nhiều điều kiện khác nhau
+* `AND` - Và 
+```SQL
+SELECT tên cột 1, tên cột 2, ..
+FROM tên của bảng
+WHERE điều kiện 1 AND diều kiện 2 AND điều kiện 3
