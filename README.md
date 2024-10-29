@@ -129,7 +129,7 @@ Hiejn thị một bản ghi nếu điều kiện có giá trị là `FALSE`
 ```SQL
 SELECT tên cột 1, tên cột 2, ...
 FROM tên của bảng
-WHERE tên của cột BETWEEN giá trị bắt đàu AND giá trị kết thúc;
+WHERE tên của cột `BETWEEN` giá trị bắt đàu AND giá trị kết thúc;
 ```
 * Toán tử `BETWEEN` chọn các giá trị trong một phạm vi nhất định. Các giá
 trị có thể là số, văn bản hay ngày tháng.
