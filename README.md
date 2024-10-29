@@ -124,3 +124,13 @@ FROM tên của bảng
 WHERE NOT điều kiện 1;
 ```
 Hiejn thị một bản ghi nếu điều kiện có giá trị là `FALSE`
+## Phần 10: Toán từ `BETWEEN` trong SQL
+  Chọn dữ liệu trong khoảng nhất định từ trong khoảng này đến khoảng kia
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng
+WHERE tên của cột BETWEEN giá trị bắt đàu AND giá trị kết thúc;
+```
+* Toán tử `BETWEEN` chọn các giá trị trong một phạm vi nhất định. Các giá
+trị có thể là số, văn bản hay ngày tháng.
+* Toán tử `BETWEEN` gồm giá trị bắt đầu và kết thúc.
