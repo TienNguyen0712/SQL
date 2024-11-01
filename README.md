@@ -134,3 +134,14 @@ WHERE tên của cột `BETWEEN` giá trị bắt đàu AND giá trị kết th�
 * Toán tử `BETWEEN` chọn các giá trị trong một phạm vi nhất định. Các giá
 trị có thể là số, văn bản hay ngày tháng.
 * Toán tử `BETWEEN` gồm giá trị bắt đầu và kết thúc.
+## Phần 11: Toán tử `LIKE` lọc dữ liệu trong chuỗi   
+ Chọn lọc hoặc tìm kiếm lựa chọn các từ khóa phù hợp chứa hay nằm trong   
+những từ khóa tìm được
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng
+WHERE cột cần lọc chuỗi LIKE từ khóa cần lọc;
+```
+* Có hai ký tự đại diện thường được sử dụng chung với `LIKE`:
+  * Dấu phần trăm `%` đại diện cho không, một hoặc nhiều ký tự
+  * Dấu gạch dưới `_` đại diên cho một ký tự đơn
