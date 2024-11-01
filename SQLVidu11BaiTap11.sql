@@ -35,9 +35,9 @@ FROM dbo.Employees
 WHERE LastName Like '%a%';
 --Lay ra nhom 10 nhan vien co ky tu thu 3 la 's' trong TitleOfCourtesy--
 --BaiTap4--
-SELECT TOP 10 *
+SELECT *
 FROM dbo.Employees
-WHERE TitleOfCourtesy Like '%s%';
+WHERE TitleOfCourtesy Like '_s%';
 --Liet ke nhung san pham co ten bao gom chu B--
 --co gia > 10 USD va co ma cung ap tu 10-59--
 --Sap theo gia tang dan--
