@@ -151,4 +151,9 @@ WHERE cột cần lọc chuỗi LIKE từ khóa cần lọc;
   * `_` : Đại diện cho 1 ký tự
   * `[]` : Trong dấu ngoặc vuông có thể đặt ký tự và sẽ đại diện 1 hay nhiều ký tự trong nó   
   * `^` : Tìm ra nhừng không lấy những ký tự sau `^`
-  * `-` : Đại diện cho 1 khoảng từ đâu đến đâu và không chứa số bên trong 
+  * `-` : Đại diện cho 1 khoảng từ đâu đến đâu và không chứa số bên trong
+```SQL
+SELECT teeb cột 1, tên cột 2, ...
+FROM tên của bảng
+WHERE cột cần lọc theo điều kiện LIKE `Ký tự đặc biệt`;
+```
