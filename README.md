@@ -145,3 +145,10 @@ WHERE cột cần lọc chuỗi LIKE từ khóa cần lọc;
 * Có hai ký tự đại diện thường được sử dụng chung với `LIKE`:
   * Dấu phần trăm `%` đại diện cho không, một hoặc nhiều ký tự
   * Dấu gạch dưới `_` đại diên cho một ký tự đơn
+  ## Phần 12: `WILDCARD` ký tự đại diện
+* Khi ta sử dụng toán tử `LIKE` thì lệnh này thường đi đôi vói nói
+  * `%` :  Đại diện cho 0, 1 và rất nhiều ký tự
+  * `_` : Đại diện cho 1 ký tự
+  * `{}` : Trong dấu ngược vuông có thể đặt ký tự và sẽ đại diện 1 hay nhiều ký tự trong nó   
+  * `^` : Tìm ra nhừng không lấy những ký tự sau `^`
+  * `-` : Đại diện cho 1 khoảng từ đâu đến đâu và không chứa số bên trong 
