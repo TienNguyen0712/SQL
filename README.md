@@ -165,12 +165,12 @@ SELECT tên cột 1, tên cột 2, ...
 FROM tên của bảng
 WHERE tên của cột cần tìm kiếm IN (giá trị 1, giá trị 2, ...);
 ```
-  * `IN` có chức năng tương tự như `OR`
-  * Cho phép tìm kiếm nhiều giá trị
+* `IN` có chức năng tương tự như `OR`
+* Cho phép tìm kiếm nhiều giá trị
 * Ngược lại với toán tử `IN` ta có toàn từ `NOT IN`
 ```SQL
 SELECT tên cột 1, tên cột 2, ...
 FROM tên của bảng
-WHERE tên của cột cần tìm kiếm NOT IN (giá trị 1, giá trị 2, ...);
+WHERE tên của cột cần tìm kiếm `NOT IN` (giá trị 1, giá trị 2, ...);
 ```
-  * `NOT IN` tìm kiếm các cột không giống với giá trị
+* `NOT IN` tìm kiếm các cột không giống với giá trị
