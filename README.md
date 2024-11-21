@@ -157,3 +157,11 @@ SELECT tên cột 1, tên cột 2, ...
 FROM tên của bảng
 WHERE cột cần lọc theo điều kiện LIKE `Ký tự đại diện`;
 ```
+## Phần 13: Tìm kiếm giá trị trong danh sách với `IN` và `NOT IN`
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng
+WHERE tên của cột cần tìm kiếm IN giá trị 1, giá trị 2, ..
+```
+* `IN` có chức năng tương tự như `OR`
+* Cho phép tìm kiếm nhiều giá trị
