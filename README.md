@@ -1,3 +1,4 @@
+
 # Lưu trữ các bài tập ví dụ về SQL
 ## Phần 1: Lấy dữ liệu từ bảng cho trước
   Về `SELECT` và `FROM` các lệnh lấy từ bảng các cột nếu "*" tức lấy tất cả cột của bảng đó
@@ -158,6 +159,7 @@ FROM tên của bảng
 WHERE cột cần lọc theo điều kiện LIKE `Ký tự đại diện`;
 ```
 ## Phần 13: Tìm kiếm giá trị trong danh sách với `IN` và `NOT IN`
+  Ta có thể chọn lọc nhiều các giá trị khác nhau chỉ bẳng cách dùng toán từ `OR` một lần khác với toán tử `OR` phải gọi nhiều lần
 ```SQL
 SELECT tên cột 1, tên cột 2, ...
 FROM tên của bảng
