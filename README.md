@@ -159,7 +159,7 @@ FROM tên của bảng
 WHERE cột cần lọc theo điều kiện LIKE `Ký tự đại diện`;
 ```
 ## Phần 13: Tìm kiếm giá trị trong danh sách với `IN` và `NOT IN`
-  Ta có thể chọn lọc nhiều các giá trị khác nhau chỉ bẳng cách dùng toán từ `OR` một lần khác với toán tử `OR` phải gọi nhiều lần
+  Ta có thể chọn lọc nhiều các giá trị khác nhau chỉ bẳng cách dùng toán từ `IN` một lần khác với toán tử `OR` phải gọi nhiều lần
 ```SQL
 SELECT tên cột 1, tên cột 2, ...
 FROM tên của bảng
