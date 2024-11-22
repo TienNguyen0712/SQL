@@ -1,4 +1,3 @@
-
 # Lưu trữ các bài tập ví dụ về SQL
 ## Phần 1: Lấy dữ liệu từ bảng cho trước
   Về `SELECT` và `FROM` các lệnh lấy từ bảng các cột nếu "*" tức lấy tất cả cột của bảng đó
@@ -174,3 +173,18 @@ FROM tên của bảng
 WHERE tên của cột cần tìm kiếm `NOT IN` (giá trị 1, giá trị 2, ...);
 ```
 * `NOT IN` tìm kiếm các cột không giống với giá trị
+## Phần 14: Kiểm tra dữ liệu trong cột có `NULL` hay không
+  Dữ liệu `NULL` là kiểu dữ liệu bị thiếu hay còn gọi là dữ liệu không tồn tại 
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng
+WHERE tên của cột cần kiềm tra IS NULL;
+```
+* Trả về cột có dữ liệu `NULL`
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng
+WHERE tên của cột cần kiềm tra IS NOT NULL;
+```
+* Trả vè cột dữ liệu không `NULL`
+
