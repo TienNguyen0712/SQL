@@ -197,3 +197,19 @@ WHERE đièu kiện
 GROUP BY tên cột cần nhóm 1, tên cột cần nhóm 2, ...
 ORDER BY tên cột cán sắp xếp theo 1, tên cột cần sáp xếp theo 2, ...
 ```
+## Phần 16: Hàm láy Ngày, Tháng, Năm
+* Dùng hàm `DAY` để lấy dữ liệu là ngày
+```SQL
+SELECT DAY('năm-tháng-ngày thời gian')
+```
+  * Trả về giá trị ngày
+* Dùng hàm `MONTH` để lấy dữ liệu là tháng
+```SQL
+SELECT MONTH('năm-tháng-ngày thời gian')
+```
+  * Trả vè giá trị tháng
+* Dùng hàm `YEAR` để lấy dữ liệu là năm
+```SQL
+  *Trả về giá trị năm
+SELECT YEAR('năm-tháng-ngày thời gian')
+```
