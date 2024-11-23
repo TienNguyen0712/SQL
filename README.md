@@ -188,4 +188,12 @@ FROM tên của bảng
 WHERE tên của cột cần kiềm tra IS NOT NULL;
 ```
 * Trả vè cột dữ liệu không `NULL`
-
+## Phần 15: Nhóm các dòng dữ liệu bằng `GROUP BY`
+  Dùng để nhóm các dòng dữ liệu có cùng giá trị với nhau và thường dùng chung với các hàm như: `COUNT()` `MAX()` `MIN()` `SUM()` `AVG()`
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng
+WHERE đièu kiện
+GROUP BY tên cột cần nhóm 1, tên cột cần nhóm 2, ...
+ORDER BY tên cột cán sắp xếp theo 1, tên cột cần sáp xếp theo 2, ...
+```
