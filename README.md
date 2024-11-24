@@ -213,3 +213,13 @@ SELECT MONTH('năm-tháng-ngày thời gian')
 SELECT YEAR('năm-tháng-ngày thời gian')
 --Trả về giá trị năm--
 ```
+## Phần 17: Lọc dữ liệu sau `GROUP BY` bằng `HAVING`
+ Sử dụng `HAVING` để lọc các trường dữ liệu sau khi hàm `GROUP BY` được gọi, cột mới được tạo ra
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng
+WHERE điều kiện để lựa chọn các cột
+GROUP BY cột lựa chọn để gộp 1, cột lựa chọn để gộp 2, ...
+HAVING điều kiện sau khi gộp
+ORDER BY tên cột cần sắp xếp theo 1, tên cột cần sắp xếp theo 2, ...
+```
