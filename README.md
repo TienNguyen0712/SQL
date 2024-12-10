@@ -236,3 +236,15 @@ WHERE 'Tên thay thế 1'.cột lựa chọn trong bảng 1 = 'Tên thay thế 2
 ```
 * Lưu ý: `WHERE` là nơi để đặt điều kiện cho hai bảng có liên quan với nhau 
 * Có thể lược bỏ `AS`
+## Phân 19: Câu lệnh `UNION` kết hợp các kết quả truy vấn với nhau
+ Được dùng để kết hợp tập kết quả của hai hoặc nhiều câu lệnh.         
+* Mỗi câu lệnh bên trong phải có cùng số lượng cột    
+* Các cột phải có kiểu dữ liệu tương tự nhau    
+* Các cột trong mỗi câu lệnh cũng phải theo cùng thứ tự
+* CHO PHÉP CÁC GIÁ TRỊ LẶP LẠI
+```SQL
+SELECT tên cột 1, tên cột 2, ... FROM tên bảng 1
+UNION `ALL`
+SELECT tên cột 1, tên cột 2, ... FROM tên bảng 2
+```
+* Dùng `ALL` khi không bị ràng buộc bởi đièu kiện dữ liệu duy nhất
