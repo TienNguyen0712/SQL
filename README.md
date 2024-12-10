@@ -235,3 +235,4 @@ WHERE 'Tên thay thế 1'.cột lựa chọn trong bảng 1 = 'Tên thay thế 2
 --ORDER BY tên cột cần sắp xếp theo 1, tên cột cần sắp xép theo 2,   --
 ```
 * Lưu ý: `WHERE` là nơi để đặt điều kiện cho hai bảng có liên quan với nhau 
+* Có thể lược bỏ `AS`
