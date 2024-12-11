@@ -5,6 +5,7 @@
 SELECT tên cột 1, tên cột 2,..
 FROM tên của bảng;
 ```
+[Về đầu trang](#top)
 ## Phần 2: Lấy cột có dữ liệu khác nhau ( duy nhất)
   Về `SELECT DISTINCT` và FROM các lệnh lấy từ bảng ra các cột có các dữ liệu khác nhau của     
 bảng đó nếu lấy từ hai cột giống nhau nhưng có 1 cột dữ liệu bị trùng mà cột kia không có   
@@ -18,6 +19,7 @@ FROM tên của bảng;
 SELECT TOP N tên cột 1, tên cột 2,..
 FROM tên của bảng;
 ```
+[Về đầu trang](#top)
 ## Phần 3: Bí danh hay tên thay thế `ALIAS_NAME`
   Được hiểu là tên thay thế hay bí danh   
 và khi gọi đến tên thì hiểu là tên của nó  
@@ -53,6 +55,7 @@ FROM tên của bảng;
 SELECT MIN (tên của cột muốn tìm giá trị nhỏ nhất) AS "Tên thay thế"
 FROM tên của bảng;
 ```
+[Về đầu trang](#top)
 ## Phần 5: Tìm số lần đếm, tổng, giá trị trung bình    
   Giúp cho việc quẩn lý kiếm soát số liệu, phân tích một cách chính xác và trực quan     
 * Hàm đếm   
@@ -75,7 +78,8 @@ FROM tên của bảng;
 ```SQL
 SELECT AVG (tên của cột) -- Bỏ qua các giá trị NULL--
 FROM tên của bảng;
-```   
+```
+[Về đầu trang](#top)
 ## Phần 6: Sắp xếp kết quả trả về khi gọi một câu lệnh truy vấn
  So sánh cũng như đánh giá sắp xép các kết quả trả về từ một câu truy vấn giúp việc đánh giá xem xét chính xác và chi tiết hơn 
 ```SQL
@@ -84,7 +88,8 @@ FROM tển của bảng
 ORDER BY tên cột 1, tên cột 2, ... ASC|DESC;
 ```
 * `ASC`: Là sắp xếp tăng dần ( Mặc định nếu không ghi )
-* `DESC`: Là sắp xếp giảm dần 
+* `DESC`: Là sắp xếp giảm dần
+[Về đầu trang](#top)
 ## Phần 7: Các toán tử `+` `-` `*` `/` `%` trong SQL
   Để thực hiện các phép tính trong SQL ta chỉ đơn giản sử dụng các toán tử Toán học
 ```SQL
@@ -93,6 +98,7 @@ SELECT tên côt 1  [toán từ]  tên cột 2, ...
 FROM tên của bảng;
 ```
 * Có thể kết hợp với các hàm `ALIAS` `COUNT` `MAX` `SUN` `AVG` để linh hoạt kết hợp các bài toán với nhau
+[Về đầu trang](#top)
 ## Phần 8: Lọc dữ liệu trong truy vấn
   Để truy vấn hay lọc theo một điều kiện nào đó ta sử dụng câu lệnh `WHERE` sử dụng trong các công việc tìm kiếm hay kiểm tra truy xuất những dữ liệu thỏa điều kiện mà ta nhập vào
 ```SQL
