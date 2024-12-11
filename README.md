@@ -1,5 +1,4 @@
 # Lưu trữ các bài tập ví dụ về SQL
-* [Phần 20: Các câu lệnh `JOIN` trong SQL](#P20)
 ## Phần 1: Lấy dữ liệu từ bảng cho trước
   Về `SELECT` và `FROM` các lệnh lấy từ bảng các cột nếu "*" tức lấy tất cả cột của bảng đó
 ```SQL
