@@ -250,7 +250,7 @@ WHERE 'Tên thay thế 1'.cột lựa chọn trong bảng 1 = 'Tên thay thế 2
 --ORDER BY tên cột cần sắp xếp theo 1, tên cột cần sắp xép theo 2,   --
 ```
 * Lưu ý: `WHERE` là nơi để đặt điều kiện cho hai bảng có liên quan với nhau 
-* Có thể lược bỏ `AS`     
+* Có thể lược bỏ `AS`
 [Về đầu trang](#top)
 ## [Phân 19: Câu lệnh `UNION` kết hợp các kết quả truy vấn với nhau](#P19)
  Được dùng để kết hợp tập kết quả của hai hoặc nhiều câu lệnh.         
