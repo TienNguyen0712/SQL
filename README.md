@@ -1,6 +1,6 @@
 # Lưu trữ các bài tập ví dụ về SQL
 ## Table of contents
-[Phần 1: Lấy dữ liệu từ bảng cho trước](./Data/A001)
+* [Phần 1: Lấy dữ liệu từ bảng cho trước](./Data/A001.md)
 ## Phần 1: Lấy dữ liệu từ bảng cho trước
   Về `SELECT` và `FROM` các lệnh lấy từ bảng các cột nếu "*" tức lấy tất cả cột của bảng đó
 ```SQL
