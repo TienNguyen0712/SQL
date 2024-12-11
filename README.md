@@ -89,7 +89,7 @@ FROM tển của bảng
 ORDER BY tên cột 1, tên cột 2, ... ASC|DESC;
 ```
 * `ASC`: Là sắp xếp tăng dần ( Mặc định nếu không ghi )
-* `DESC`: Là sắp xếp giảm dần
+* `DESC`: Là sắp xếp giảm dần     
 [Về đầu trang](#top)
 ## Phần 7: Các toán tử `+` `-` `*` `/` `%` trong SQL
   Để thực hiện các phép tính trong SQL ta chỉ đơn giản sử dụng các toán tử Toán học
@@ -142,7 +142,7 @@ WHERE tên của cột `BETWEEN` giá trị bắt đàu AND giá trị kết th�
 ```
 * Toán tử `BETWEEN` chọn các giá trị trong một phạm vi nhất định. Các giá
 trị có thể là số, văn bản hay ngày tháng.
-* Toán tử `BETWEEN` gồm giá trị bắt đầu và kết thúc.    
+* Toán tử `BETWEEN` gồm giá trị bắt đầu và kết thúc.         
 [Về đầu trang](#top)
 ## Phần 11: Toán tử `LIKE` lọc dữ liệu trong chuỗi   
  Chọn lọc hoặc tìm kiếm lựa chọn các từ khóa phù hợp chứa hay nằm trong   
@@ -183,7 +183,7 @@ SELECT tên cột 1, tên cột 2, ...
 FROM tên của bảng
 WHERE tên của cột cần tìm kiếm `NOT IN` (giá trị 1, giá trị 2, ...);
 ```
-* `NOT IN` tìm kiếm các cột không giống với giá trị    
+* `NOT IN` tìm kiếm các cột không giống với giá trị     
 [Về đầu trang](#top)
 ## Phần 14: Kiểm tra dữ liệu trong cột có `NULL` hay không
   Dữ liệu `NULL` là kiểu dữ liệu bị thiếu hay còn gọi là dữ liệu không tồn tại 
@@ -198,7 +198,7 @@ SELECT tên cột 1, tên cột 2, ...
 FROM tên của bảng
 WHERE tên của cột cần kiềm tra IS NOT NULL;
 ```
-* Trả vè cột dữ liệu không `NULL`
+* Trả vè cột dữ liệu không `NULL`     
 [Về đầu trang](#top)
 ## Phần 15: Nhóm các dòng dữ liệu bằng `GROUP BY`
   Dùng để nhóm các dòng dữ liệu có cùng giá trị với nhau và thường dùng chung với các hàm như: `COUNT()` `MAX()` `MIN()` `SUM()` `AVG()`
@@ -250,9 +250,9 @@ WHERE 'Tên thay thế 1'.cột lựa chọn trong bảng 1 = 'Tên thay thế 2
 --ORDER BY tên cột cần sắp xếp theo 1, tên cột cần sắp xép theo 2,   --
 ```
 * Lưu ý: `WHERE` là nơi để đặt điều kiện cho hai bảng có liên quan với nhau 
-* Có thể lược bỏ `AS`
+* Có thể lược bỏ `AS`     
 [Về đầu trang](#top)
-## Phân 19: Câu lệnh `UNION` kết hợp các kết quả truy vấn với nhau
+## [Phân 19: Câu lệnh `UNION` kết hợp các kết quả truy vấn với nhau](#P19)
  Được dùng để kết hợp tập kết quả của hai hoặc nhiều câu lệnh.         
 * Mỗi câu lệnh bên trong phải có cùng số lượng cột    
 * Các cột phải có kiểu dữ liệu tương tự nhau    
@@ -263,9 +263,9 @@ SELECT tên cột 1, tên cột 2, ... FROM tên bảng 1
 UNION `ALL`
 SELECT tên cột 1, tên cột 2, ... FROM tên bảng 2
 ```
-* Dùng `ALL` khi không bị ràng buộc bởi đièu kiện dữ liệu duy nhất
+* Dùng `ALL` khi không bị ràng buộc bởi đièu kiện dữ liệu duy nhất       
 [Về đầu trang](#top)
-## Phần 20: Các câu lệnh `JOIN` trong SQL
+## [Phần 20: Các câu lệnh `JOIN` trong SQL](#P20)
  Đây là phần rất quan trọng trong việc phân tích dữ liệu và sử dụng các mô hinh   
 Machine Learning    
 * Câu lệnh `INNER JOIN` ( trong SQL Server ) câu lệnh `JOIN` ( trong MySQL )
