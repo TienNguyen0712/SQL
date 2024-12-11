@@ -288,3 +288,6 @@ ON tên của bảng1.cột bảng 1 = tên bảng 2.cột bảng 2 --điều ki
 --Trả về tất cả các dòng đúng với 1 dòng, lôi ra tât cả--
 ```
 ### So sánh sự khác nhau giữa `INNER JOIN` `LEFT JOIN` `RIGHT JOIN`
+| INNER JOIN | LEFT JOIN | RIGHT JOIN |     
+|---|---|---|
+| Lấy các dữ liệu riêng biệt | Lấy các dữ liệu từ bảng trái và các dữ liệu phù hợp với điều kiện bảng bên trái kể cả dữ liệu `NULL` | Lấy các dữ liệu từ bảng phải và các dòng phù hợp với điều kiện bảng bên phải kể cả dữ liệu `NULL` |
