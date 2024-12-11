@@ -248,3 +248,43 @@ UNION `ALL`
 SELECT tên cột 1, tên cột 2, ... FROM tên bảng 2
 ```
 * Dùng `ALL` khi không bị ràng buộc bởi đièu kiện dữ liệu duy nhất
+## Phần 20: Các câu lệnh `JOIN` trong SQL
+ Đây là phần rất quan trọng trong việc phân tích dữ liệu và sử dụng các mô hinh   
+Machine Learning    
+* Câu lệnh `INNER JOIN` ( trong SQL Server ) câu lệnh `JOIN` ( trong MySQL )
+- Trả về tất cả các hàng khi có it nhất một giá trị ở hai bảng ( ý nghĩa và cách làm việc giống với lệnh kết hợp 2 đến nhiều bảng )
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng 1
+INNER JOIN tên bảng 2
+ON tên của bảng1.cột bảng 1 = tên bảng 2.cột bảng 2
+--Trả về giá trị mà hai bảng đều có--
+```
+* Câu lệnh `LEFT OUTER JOIN` hay `LEFT JOIN`
+- Trả lại tất cả các dòng từ bảng bên trái, các dòng đúng với điều kiện từ bảng bên phải
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng 1
+LEFT JOIN tên bảng 2
+ON tên của bảng1.cột bảng 1 = tên bảng 2.cột bảng 2 --điều kiện đặt ra--
+--Trả về tất cả các dòng từ bảng bên phải, các dòng đúng với điều kiện từ bảng bên trái--
+```
+* Câu lệnh `RIGHT OUTER JOIN` hay `RIGHT JOIN`
+- Trả lại tất cả các dòng từ bảng bên phải, các dòng đúng với điều kiện từ bảng bên trái
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng 1
+RIGHT JOIN tên bảng 2
+ON tên của bảng1.cột bảng 1 = tên bảng 2.cột bảng 2 --điều kiện đặt ra--
+--Trả về tất cả các dòng từ bảng bên phải, các dòng đúng với điều kiện từ bảng bên trái--
+```
+* Câu lệnh `FULL OUTER JOIN` hay `FULL JOIN`
+- Trả lại tất cả các dòng đúng với 1 dòng trong bảng là kết hợp giữa `LEFT JOIN` và `RIGHT JOIN`
+```SQL
+SELECT tên cột 1, tên cột 2, ...
+FROM tên của bảng 1
+FULL JOIN tên bảng 2
+ON tên của bảng1.cột bảng 1 = tên bảng 2.cột bảng 2 --điều kiện đặt ra--
+--Trả về tất cả các dòng đúng với 1 dòng, lôi ra tât cả--
+```
+### So sánh sự khác nhau giữa `INNER JOIN` `LEFT JOIN` `RIGHT JOIN`
