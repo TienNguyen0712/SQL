@@ -312,7 +312,7 @@ ON tên của bảng1.cột bảng 1 = tên bảng 2.cột bảng 2 --điều ki
 ## Phần 21: Câu lệnh Sub Query ( Câu lệnh con, câu lệnh lồng nhau )
   Câu lệnh con Sub Query được xem như có cùng chức năng với các câu lệnh SELECT, FROM, INSERT, DELETE và thường nằm trong và lồng với chúng    
   Nó hoạt động  như một bảng ảo tạm thời, được sử dụng để trích xuất thông tin từ các bảng hoặc tập dữ liệu khác trong cùng một câu truy vấn
-* Ví dụ về một câu lệnh Sub Query: Yêu cầu lọc ra toàn bộ sản phẩm có giá trị lớn hơn giaqs cả trung bình của toàn bộ sản phẩm trong bảng    
+* Ví dụ về một câu lệnh Sub Query: Yêu cầu lọc ra toàn bộ sản phẩm có giá trị lớn hơn giá cả trung bình của toàn bộ sản phẩm trong bảng    
 ```SQL
 SELECT *
 FROM Products
