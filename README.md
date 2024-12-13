@@ -250,9 +250,9 @@ WHERE 'Tên thay thế 1'.cột lựa chọn trong bảng 1 = 'Tên thay thế 2
 --ORDER BY tên cột cần sắp xếp theo 1, tên cột cần sắp xép theo 2,   --
 ```
 * Lưu ý: `WHERE` là nơi để đặt điều kiện cho hai bảng có liên quan với nhau 
-* Có thể lược bỏ `AS`
+* Có thể lược bỏ `AS`   
 [Về đầu trang](#top)
-## [Phân 19: Câu lệnh `UNION` kết hợp các kết quả truy vấn với nhau](#P19)
+## Phân 19: Câu lệnh `UNION` kết hợp các kết quả truy vấn với nhau
  Được dùng để kết hợp tập kết quả của hai hoặc nhiều câu lệnh.         
 * Mỗi câu lệnh bên trong phải có cùng số lượng cột    
 * Các cột phải có kiểu dữ liệu tương tự nhau    
@@ -265,7 +265,7 @@ SELECT tên cột 1, tên cột 2, ... FROM tên bảng 2
 ```
 * Dùng `ALL` khi không bị ràng buộc bởi đièu kiện dữ liệu duy nhất       
 [Về đầu trang](#top)
-## [Phần 20: Các câu lệnh `JOIN` trong SQL](#P20)
+## Phần 20: Các câu lệnh `JOIN` trong SQL
  Đây là phần rất quan trọng trong việc phân tích dữ liệu và sử dụng các mô hinh   
 Machine Learning    
 * Câu lệnh `INNER JOIN` ( trong SQL Server ) câu lệnh `JOIN` ( trong MySQL )
