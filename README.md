@@ -322,3 +322,24 @@ WHERE Price > (
 );
 ```
 [Về đầu trang](#top)
+## Phẩn 22: Thứ tự thực thi các câu lệnh SQL
+ Trong SQL dù có sử dụng phân mềm nào thì đều có thứ tự để thực hiện 1 câu lệnh truy vấn, và nó xuát phát từ câu lệnh truy vấn như FROM, SELECT, ...    
+ ```SQL
+SELECT DISTINCR 9 TOP 11 , , 8
+FROM 1
+FULL/L/R 4 OUTER JOIN 2 ON 3
+WHERE 5
+GROUP  BY 6
+HAVING 7
+ORDER BY 10
+```
+ Ở trên được đánh các số chính là thứ tự để thực hiện câu lệnh   '
+ * Cụ thể theo từng bước:   
+   *  FROM sẽ thực hiện đầu tiên
+   *  sau đó thực hiện các câu lệnh JOIN gộp bảng
+   *  sau đó Kiểm tra các giá trị từ câu ON
+   *  theo đó néu có L/R/FULL thì thực hiện
+   *  Sau đó thực hiện câu lệnh WHERE
+   *  GROUP BY - HAVING - ORDER BY
+   *  SELECT là lệnh thực hiện cuối
+    
