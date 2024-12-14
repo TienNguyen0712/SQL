@@ -341,5 +341,5 @@ ORDER BY 10
    *  theo đó néu có `L/R/FULL` thì thực hiện
    *  Sau đó thực hiện câu lệnh WHERE
    *  `GROUP BY` - `HAVING` - `ORDER BY`
-   *  `SELECT` là lệnh thực hiện cuối
+   *  `SELECT` là lệnh thực hiện cuối     
   [Về đầu trang](#top)
