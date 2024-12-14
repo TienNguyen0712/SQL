@@ -335,11 +335,11 @@ ORDER BY 10
 ```
  Ở trên được đánh các số chính là thứ tự để thực hiện câu lệnh   '
  * Cụ thể theo từng bước:   
-   *  FROM sẽ thực hiện đầu tiên
-   *  sau đó thực hiện các câu lệnh JOIN gộp bảng
-   *  sau đó Kiểm tra các giá trị từ câu ON
-   *  theo đó néu có L/R/FULL thì thực hiện
+   *  `FROM` sẽ thực hiện đầu tiên
+   *  sau đó thực hiện các câu lệnh `JOIN` gộp bảng
+   *  sau đó Kiểm tra các giá trị từ câu `ON`
+   *  theo đó néu có `L/R/FULL` thì thực hiện
    *  Sau đó thực hiện câu lệnh WHERE
-   *  GROUP BY - HAVING - ORDER BY
-   *  SELECT là lệnh thực hiện cuối
-    
+   *  `GROUP BY` - `HAVING` - `ORDER BY`
+   *  `SELECT` là lệnh thực hiện cuối
+  [Về đầu trang](#top)
