@@ -362,6 +362,6 @@ WITH tên_CTE ( cột 1, cột 2, ...) AS (
 ```
 * Truy vấn dịnh nghĩa CTE là những lệnh truy vấn đã học
 * Thay đổi nội dung `INSERT` `UPDATE` `DELETE`
-* CTE không được đứng 1 mình
+* CTE không được đứng 1 mình và phục vụ cho các câu lệnh truy vấn sau nó
 
 [Về đầu trang](#top)
