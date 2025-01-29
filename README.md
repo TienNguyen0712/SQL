@@ -314,7 +314,8 @@ ON tên của bảng1.cột bảng 1 = tên bảng 2.cột bảng 2 --điều ki
 ### So sánh sự khác nhau giữa `INNER JOIN` `LEFT JOIN` `RIGHT JOIN`
 | INNER JOIN | LEFT JOIN | RIGHT JOIN |     
 |---|---|---|
-| Lấy các dữ liệu riêng biệt | Lấy các dữ liệu từ bảng trái và các dữ liệu phù hợp với điều kiện bảng bên trái kể cả dữ liệu `NULL` | Lấy các dữ liệu từ bảng phải và các dòng phù hợp với điều kiện bảng bên phải kể cả dữ liệu `NULL` |    
+| Lấy các dữ liệu riêng biệt | Lấy các dữ liệu từ bảng trái và các dữ liệu phù hợp với điều kiện bảng bên trái kể cả dữ liệu `NULL` | Lấy các dữ liệu từ bảng phải và các dòng phù hợp với điều kiện bảng bên phải kể cả dữ liệu `NULL` |   
+
 [Về đầu trang](#top)
 ## Phần 21: Câu lệnh Sub Query ( Câu lệnh con, câu lệnh lồng nhau )
   Câu lệnh con Sub Query được xem như có cùng chức năng với các câu lệnh SELECT, FROM, INSERT, DELETE và thường nằm trong và lồng với chúng    
@@ -351,3 +352,16 @@ ORDER BY 10
    *  `SELECT` là lệnh thực hiện cuối
        
   [Về đầu trang](#top)
+## Phần 23: Common Table Expression ( CTE ) truy vấn câu điều kiện nâng cao 
+* Được sử dụng để tạo bảng tạm thời và sử dụng nó trong các câu truy vấn sau đó
+* Giúp làm cho câu truy vấn trở nên đễ đọc và dễ truy vấn
+```SQL
+WITH tên_CTE ( cột 1, cột 2, ...) AS (
+  --Truy vấn định nghĩa CTE--
+)
+```
+* Truy vấn dịnh nghĩa CTE là những lệnh truy vấn đã học
+* Thay đổi nội dung `INSERT` `UPDATE` `DELETE`
+* CTE không được đứng 1 mình
+
+[Về đầu trang](#top)
