@@ -471,4 +471,18 @@ INSERT INTO "Tên bảng" "Danh sách các thuộc tính"
    * Tham chiếu
    * NOT NULL - Các thuộc tính có ràng buộc NOT NULL bắt buộc phải có giá trị  
 `DELETE (Xoá)`
+Dùng để xoá các dòng của bảng
+```SQL
+DELETE FROM Tên bảng cần xoá
+WHERE Điều kiện để xoá
+```
 `UPDATE (Sửa)`
+Dùng để thay đổi giá trị của thuộc tính cho các dòng của bảng
+```SQL
+UPDATE  "Tên bảng"
+SET "Tên thuộc tính" = "Giá trị mới",
+    "Tên thuộc tính" = "Giá trị mới",
+   ...
+WHERE điều kiện
+```
+[Về đầu trang](#top)
