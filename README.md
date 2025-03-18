@@ -1,4 +1,26 @@
 # Lưu trữ các bài tập ví dụ về SQL
+## Phần 0: Tạo CSDL
+   Trong CSDL ngoài cách kéo thả hay sử dụng các thanh công cụ ta có thể sử dụng các dòng lệnh 
+* Tạo CSDL đơn giản không tham số
+```SQL
+CREATE DATABASE "Tên của CSDL"
+```
+* Tạo CSDL chỉ định đường dẫn nơi chứa CSDL
+```SQL
+CREATE DATABASE "Tên của CSDL"
+ON (
+      NAME = "Tên File MDF"
+      FILENAME = "Ví trí lưu File MDF"
+      SIZE = "Kích thước File"
+      MAXSIZE = "Kích thước tối đa của File"
+      FILEGROWTH = "Số lượng kích thước dữ liệu sẽ tăng lên")
+LOG ON (
+              NAME = "Tên File Log"
+      FILENAME = "Ví trí lưu File LDF"
+      SIZE = "Kích thước File"
+      MAXSIZE = "Kích thước tối đa của File"
+      FILEGROWTH = "Số lượng kích thước dữ liệu sẽ tăng lên")
+```
 ## Phần 1: Lấy dữ liệu từ bảng cho trước
   Về `SELECT` và `FROM` các lệnh lấy từ bảng các cột nếu "*" tức lấy tất cả cột của bảng đó
 ```SQL
