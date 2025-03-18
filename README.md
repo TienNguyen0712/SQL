@@ -36,7 +36,7 @@ DROP `Loại dữ liệu` "Tên đối tượng"
 ```
 #### `Bảng (Table)`:
 * Để tạo bảng   
-  Ta cần xác định ( Tên bảng, thuộc tính ( Tên thuộc tính, Kiểu dữ liệu, Các Ràng buộc toàn vẹn trên thuộc tính ) )
+Ta cần xác định ( Tên bảng, thuộc tính ( Tên thuộc tính, Kiểu dữ liệu, Các Ràng buộc toàn vẹn trên thuộc tính ) )
 ```SQL
 CREATE TABLE "Tên bảng" (
    "Tên cột1" "Kiểu dữ liệu" ["Ràng buộc toàn vẹn"]
@@ -47,7 +47,8 @@ CREATE TABLE "Tên bảng" (
 ```SQL
 CONSTRAINT "Tên Ràng buộc toàn vẹn" "Ràng buộc toàn vẹn"
 ```
-* Lệnh sửa bảng  
+* Lệnh sửa bảng
+
 `Thêm cột`
 ```SQL
 ALTER TABLE "Tên bảng cần chỉnh sửa" ADD
@@ -67,7 +68,7 @@ ALTER TABLE "Tên bảng cần chỉnh sửa" ALTER COLUMN
 ```SQL
 DROP TABLE "Tên bảng cần xoá"
 ```
-* Lệnh tạo miền giá trị     
+* Lệnh tạo `Domain ( Miền giá trị )`     
 Tạo ra một kiểu dữ liệu mới kế thừa những kiểu dữ liệu có sẵn
 ```SQL
 CREATE DOMAIN "Tên kiểu dữ liệu mới" AS "Kiểu dữ liệu"
