@@ -47,7 +47,7 @@ CREATE TABLE "Tên bảng" (
 ```SQL
 CONSTRAINT "Tên Ràng buộc toàn vẹn" "Ràng buộc toàn vẹn"
 ```
-* Lệnh sửa bảng
+* Lệnh sửa bảng  
 `Thêm cột`
 ```SQL
 ALTER TABLE "Tên bảng cần chỉnh sửa" ADD
