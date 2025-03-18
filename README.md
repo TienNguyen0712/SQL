@@ -35,7 +35,8 @@ ALTER DATABASE "Tên của CSDL"
 DROP `Loại dữ liệu` "Tên đối tượng"
 ```
 #### `Bảng (Table)`:
-* Để tạo bảng ta cần xác định ( Tên bảng, thuộc tính ( Tên thuộc tính, Kiểu dữ liệu, Các Ràng buộc toàn vẹn trên thuộc tính ) )
+* Để tạo bảng   
+  Ta cần xác định ( Tên bảng, thuộc tính ( Tên thuộc tính, Kiểu dữ liệu, Các Ràng buộc toàn vẹn trên thuộc tính ) )
 ```SQL
 CREATE TABLE "Tên bảng" (
    "Tên cột1" "Kiểu dữ liệu" ["Ràng buộc toàn vẹn"]
@@ -47,27 +48,27 @@ CREATE TABLE "Tên bảng" (
 CONSTRAINT "Tên Ràng buộc toàn vẹn" "Ràng buộc toàn vẹn"
 ```
 * Lệnh sửa bảng
-**Thêm cột**
+`Thêm cột`
 ```SQL
 ALTER TABLE "Tên bảng cần chỉnh sửa" ADD
       "Tên cột" "Kiểu dữ liệu" ["Ràng buộc toàn vẹn"]
 ```
-**Xoá cột**
+`Xoá cột`
 ```SQL
 ALTER TABLE "Tên bảng cần chỉnh sửa" DROP COLUMN "Tên cột"
 ```
-**Mở rộng cột**
+`Mở rộng cột`
 ```SQL
 ALTER TABLE "Tên bảng cần chỉnh sửa" ALTER COLUMN
       "Tên cột" "Kiểu dữ liệu mới"
 ```
-* Lệnh xoá bảng
+* Lệnh xoá bảng    
   Được dùng để xoá cấu trúc bảng tất cả dữ liệu
 ```SQL
 DROP TABLE "Tên bảng cần xoá"
 ```
-* Lệnh tạo miền giá trị
-     Tạo ra một kiểu dữ liệu mới kế thừa những kiểu dữ liệu có sẵn
+* Lệnh tạo miền giá trị     
+  Tạo ra một kiểu dữ liệu mới kế thừa những kiểu dữ liệu có sẵn
 ```SQL
 CREATE DOMAIN "Tên kiểu dữ liệu mới" AS "Kiểu dữ liệu"
 ```
