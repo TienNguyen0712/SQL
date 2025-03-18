@@ -491,3 +491,29 @@ WHERE điều kiện
    * Không cho sửa
    * Sửa luôn những dòng có giá trị tham chiếu đến
 [Về đầu trang](#top)
+## Phần 26: Khung nhìn ( View )
+ Khung nhìn hay bảng ảo được định nghĩa từ các bảng khác nhau có thể truy vấn hay cập nhật thông qua khung nhìn 
+* Khi muốn tạo khung nhìn
+```SQL
+CREATE VIEW tên khung nhìn AS câu truy vấn
+```
+* Khi muốn xoá khung nhìn
+```SQL
+DROP VIEW tên khung hình
+```
+[Về đầu trang](#top)
+## Phần 27: Chỉ mục (Index)
+* Khi muốn tạo chỉ mục ( Index )
+```SQL
+CREATE INDEX tên chỉ mục ON tên bảng (tên cột)
+```
+* Khi muốn xoá chỉ mục ( Index )
+```SQL
+DROP tên chi mục
+```
+* Tìm kiếm nhanh trong trường hợp so sánh với hằng số và phép kết
+* Làm chậm đi các thao tác thêm, xoá và sửa
+* Tốn chi phí
+   * Lưu trữ chỉ mục
+   * Truy xuất đĩa nhiều 
+[Về đầu trang](#top)
