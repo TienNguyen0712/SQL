@@ -469,7 +469,8 @@ INSERT INTO "Tên bảng" "Danh sách các thuộc tính"
 * Có thể gặp lỗi nếu vi phạm Ràng buộc toàn vẹn
    * Khoá chính
    * Tham chiếu
-   * NOT NULL - Các thuộc tính có ràng buộc NOT NULL bắt buộc phải có giá trị  
+   * NOT NULL - Các thuộc tính có ràng buộc NOT NULL bắt buộc phải có giá trị
+
 `DELETE (Xoá)`   
 Dùng để xoá các dòng của bảng
 ```SQL
@@ -500,9 +501,10 @@ CREATE VIEW tên khung nhìn AS câu truy vấn
 * Khi muốn xoá khung nhìn
 ```SQL
 DROP VIEW tên khung hình
-```
+```    
 [Về đầu trang](#top)
 ## Phần 27: Chỉ mục (Index)
+Giúp cho việc tìm kiếm mẫu tin có chứa thuộc tính cần tìm
 * Khi muốn tạo chỉ mục ( Index )
 ```SQL
 CREATE INDEX tên chỉ mục ON tên bảng (tên cột)
@@ -515,5 +517,6 @@ DROP tên chi mục
 * Làm chậm đi các thao tác thêm, xoá và sửa
 * Tốn chi phí
    * Lưu trữ chỉ mục
-   * Truy xuất đĩa nhiều 
+   * Truy xuất đĩa nhiều
+
 [Về đầu trang](#top)
