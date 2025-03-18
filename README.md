@@ -440,3 +440,35 @@ WITH tên_CTE ( cột 1, cột 2, ...) AS (
 * CTE không được đứng 1 mình và phục vụ cho các câu lệnh truy vấn sau nó
 
 [Về đầu trang](#top)
+## Phần 24: Kiểm tra điều kiện và xuất thông tin theo từng trường hợp
+Chức năng giống với if, else trong lập trình
+```SQL
+CASE "Tên cột"
+      WHEN "Giá trị" THEN "Biểu thức"
+      WHEN "Giá trị" THEN "Biểu thức"
+      ...
+      ELSE "Biểu thức"
+END
+```
+[Về đầu trang](#top)
+## Phần 25: Cập nhật dữ liệu
+`INSERT (Thêm)`
+Dùng để thêm 1 hay nhiều dòng vào bảng
+* Để thêm dữ liệu
+   * Tên quan hệ
+   * Danh sách các thuộc tính cần thêm dữ liệu
+   * Danh sách các giá trị tương ứng
+```SQL
+--Thêm 1 dòng--
+INSERT INTO "Tên bảng" "Tên các thuộc tính"
+VALUES Danh sách các giá trị
+--Thêm nhiều dòng--
+INSERT INTO "Tên bảng" "Danh sách các thuộc tính"
+      "câu truy vấn con"
+```
+* Có thể gặp lỗi nếu vi phạm Ràng buộc toàn vẹn
+   * Khoá chính
+   * Tham chiếu
+   * NOT NULL - Các thuộc tính có ràng buộc NOT NULL bắt buộc phải có giá trị  
+`DELETE (Xoá)`
+`UPDATE (Sửa)`
