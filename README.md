@@ -1,6 +1,7 @@
 # Lưu trữ các bài tập ví dụ về SQL
-## Phần 0: Tạo CSDL
-   Trong CSDL ngoài cách kéo thả hay sử dụng các thanh công cụ ta có thể sử dụng các dòng lệnh 
+## Phần 0: Tạo, Chỉnh sửa, Xoá
+#### `CSDL`:
+   Trong CSDL ngoài cách kéo thả hay sử dụng các thanh công cụ ta có thể sử dụng các dòng lệnh đẻ thực hiện những thay đổi cho dữ liệu
 * Tạo CSDL đơn giản không tham số
 ```SQL
 CREATE DATABASE "Tên của CSDL"
@@ -21,6 +22,12 @@ LOG ON (
       MAXSIZE = "Kích thước tối đa của File"
       FILEGROWTH = "Số lượng kích thước dữ liệu sẽ tăng lên")
 ```
+* Chỉnh sửa CSDL thường là `ALTER` + Loại dữ liệu + Tên đối tượng:
+```SQL
+ALTER DATABASE "Tên của CSDL"
+{
+   MODIFY Tên File cần hướng tới (NAME: Tên, )
+}
 ## Phần 1: Lấy dữ liệu từ bảng cho trước
   Về `SELECT` và `FROM` các lệnh lấy từ bảng các cột nếu "*" tức lấy tất cả cột của bảng đó
 ```SQL
