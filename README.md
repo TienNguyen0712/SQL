@@ -26,8 +26,52 @@ LOG ON (
 ```SQL
 ALTER DATABASE "Tên của CSDL"
 {
-   MODIFY Tên File cần hướng tới (NAME: Tên, )
+   MODIFY Thuộc tính cần chỉnh sửa
+   COLLATE : Mệnh đề xắp xếp
 }
+```
+* Xoá CSDL với `DROP`
+```SQL
+DROP `Loại dữ liệu` "Tên đối tượng"
+```
+#### `Bảng (Table)`:
+* Để tạo bảng ta cần xác định ( Tên bảng, thuộc tính ( Tên thuộc tính, Kiểu dữ liệu, Các Ràng buộc toàn vẹn trên thuộc tính ) )
+```SQL
+CREATE TABLE "Tên bảng" (
+   "Tên cột1" "Kiểu dữ liệu" ["Ràng buộc toàn vẹn"]
+   "Tên cột2" "Kiểu dữ liệu" ["Ràng buộc toàn vẹn"] 
+)
+```
+* Đặt tên cho ràng buộc toàn vẹn
+```SQL
+CONSTRAINT "Tên Ràng buộc toàn vẹn" "Ràng buộc toàn vẹn"
+```
+* Lệnh sửa bảng
+**Thêm cột**
+```SQL
+ALTER TABLE "Tên bảng cần chỉnh sửa" ADD
+      "Tên cột" "Kiểu dữ liệu" ["Ràng buộc toàn vẹn"]
+```
+**Xoá cột**
+```SQL
+ALTER TABLE "Tên bảng cần chỉnh sửa" DROP COLUMN "Tên cột"
+```
+**Mở rộng cột**
+```SQL
+ALTER TABLE "Tên bảng cần chỉnh sửa" ALTER COLUMN
+      "Tên cột" "Kiểu dữ liệu mới"
+```
+* Lệnh xoá bảng
+  Được dùng để xoá cấu trúc bảng tất cả dữ liệu
+```SQL
+DROP TABLE "Tên bảng cần xoá"
+```
+* Lệnh tạo miền giá trị
+     Tạo ra một kiểu dữ liệu mới kế thừa những kiểu dữ liệu có sẵn
+```SQL
+CREATE DOMAIN "Tên kiểu dữ liệu mới" AS "Kiểu dữ liệu"
+```
+[Về đầu trang](#top)
 ## Phần 1: Lấy dữ liệu từ bảng cho trước
   Về `SELECT` và `FROM` các lệnh lấy từ bảng các cột nếu "*" tức lấy tất cả cột của bảng đó
 ```SQL
