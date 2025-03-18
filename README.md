@@ -451,8 +451,8 @@ CASE "Tên cột"
 END
 ```
 [Về đầu trang](#top)
-## Phần 25: Cập nhật dữ liệu
-`INSERT (Thêm)`
+## Phần 25: Cập nhật dữ liệu   
+`INSERT (Thêm)`   
 Dùng để thêm 1 hay nhiều dòng vào bảng
 * Để thêm dữ liệu
    * Tên quan hệ
