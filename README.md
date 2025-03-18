@@ -470,13 +470,13 @@ INSERT INTO "Tên bảng" "Danh sách các thuộc tính"
    * Khoá chính
    * Tham chiếu
    * NOT NULL - Các thuộc tính có ràng buộc NOT NULL bắt buộc phải có giá trị  
-`DELETE (Xoá)`
+`DELETE (Xoá)`   
 Dùng để xoá các dòng của bảng
 ```SQL
 DELETE FROM Tên bảng cần xoá
 WHERE Điều kiện để xoá
 ```
-`UPDATE (Sửa)`
+`UPDATE (Sửa)`    
 Dùng để thay đổi giá trị của thuộc tính cho các dòng của bảng
 ```SQL
 UPDATE  "Tên bảng"
@@ -485,4 +485,9 @@ SET "Tên thuộc tính" = "Giá trị mới",
    ...
 WHERE điều kiện
 ```
+* Những dòng thoả điều kiện tại mệnh đề `WHERE` sẽ được cập nhật giá trị mới
+* Nêu không chỉ định mệnh đề `WHERE` tất cả các dòng trong bảng sẽ cập nhật
+* Có thể gây ra phạm vị ràng buộc tham chiếu
+   * Không cho sửa
+   * Sửa luôn những dòng có giá trị tham chiếu đến
 [Về đầu trang](#top)
