@@ -63,12 +63,12 @@ ALTER TABLE "Tên bảng cần chỉnh sửa" ALTER COLUMN
       "Tên cột" "Kiểu dữ liệu mới"
 ```
 * Lệnh xoá bảng    
-  Được dùng để xoá cấu trúc bảng tất cả dữ liệu
+Được dùng để xoá cấu trúc bảng tất cả dữ liệu
 ```SQL
 DROP TABLE "Tên bảng cần xoá"
 ```
 * Lệnh tạo miền giá trị     
-  Tạo ra một kiểu dữ liệu mới kế thừa những kiểu dữ liệu có sẵn
+Tạo ra một kiểu dữ liệu mới kế thừa những kiểu dữ liệu có sẵn
 ```SQL
 CREATE DOMAIN "Tên kiểu dữ liệu mới" AS "Kiểu dữ liệu"
 ```
